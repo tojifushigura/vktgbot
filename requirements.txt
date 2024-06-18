@@ -1,0 +1,5 @@
+aiogram>=3.0.0
+aiohttp
+loguru
+pydantic
+ruamel.yaml
