@@ -33,7 +33,7 @@
 
 6. **Конфигурация**
     - Включить в конфигурацию:
-        - Параметры Телеграм и ВКонтакте (tg_channel, tg_bot_token, vk_token, vk_domain, req_count, time_to_sleep, req_filter, single_start, skip_ads_posts, skip_reposts, last_known_post_id).
+        - Параметры Телеграм и ВКонтакте (tg_channel, tg_bot_token, vk_token, vk_domain, req_count, time_to_sleep, req_filter, single_start, skip_ads_posts, skip_reposts, last_known_post_id, skip_copyrighted_posts и другие).
         - Опции скачивания видео и клипов.
         - Опции подписей (как markdown или обычный текст).
 
@@ -69,7 +69,6 @@
 
 ## Пропуск постов с авторскими правами
 
-- `skip_copyrighted_posts`: Установить `True`, если нужно пропускать посты с указанными авторскими правами. Проверить и определить что именно проверяет этот параметр.
 - В конфиге можно настроить:
     - Наличие ссылки от автора в комментариях.
     - Обычные ссылки: создать список, аналогичный блэклисту. Если находит "https://" и/или "t.me", пост пропускается.
