@@ -76,14 +76,14 @@ section_name:
 # Подпись
 caption: "***Взято из: [Телеграм](https://t.me/telegram)***"  # Подпись по умолчанию пусто если здесь не задано значение    
 # Медиа-вложения
-download_videos: True          # Скачивать видео
-download_clips: True           # Скачивать клипы
-# Комментарии
-skip_hyperlinks_in_comments: True  # Пропускать комментарии автора с гиперссылками
-blacklist_comments: [https, http://, vk.me, vk.cc, t.me, vk.com] # Пропускать комментарии автора находит со списка содержающий  частитцу слово ссылки
+download_videos: True          # Скачивать видео и загружать видео в телеграм
+download_clips: True           # Скачивать клипы и загружать клипы в телеграм
+# Комментарии автора
+skip_hyperlinks_in_comments: True  # Пропускать пост если комментариях автора есть гиперссылка(и)
+blacklist_comments: ['https', 'http', 'vk.me', 'vk.cc', 't.me', 'vk.com', 'bit.ly'] # Пропустить пост если комментариях автора сожержит ссылку(ы)
 # Посты
-skip_hyperlinks_in_posts: True     # Конвертировать гиперссылками в постах как обычный текст
-posts_with_links: True        # Пропуск поста как если есть ссылка (но тут уже можно как сказыно было если указываем частитцы слова в blacklist то через него находит https://www.wildberries.ru/catalog/202138092/detail.aspx и этот пост пропускается )
+skip_hyperlinks_in_posts: True     # Конвертировать гиперссылками в постах как обычный текст в телеграм(если True).
+posts_with_links: True # Пропуск поста как если есть ссылка (но тут уже можно как сказыно было если указываем частитцы слова в blacklist то через него находит https://www.wildberries.ru/catalog/202138092/detail.aspx и этот пост пропускается )
 
 
 
